@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52D0086239F66B000BC72C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52D0085239F66B000BC72C2 /* LoginViewController.swift */; };
+		A52D0088239F745B00BC72C2 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52D0087239F745A00BC72C2 /* RoomViewController.swift */; };
+		A52D008B239F752700BC72C2 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52D008A239F752700BC72C2 /* Room.swift */; };
 		A5C37071239E29EE0019E2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C37070239E29EE0019E2CE /* AppDelegate.swift */; };
 		A5C37073239E29EE0019E2CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C37072239E29EE0019E2CE /* SceneDelegate.swift */; };
-		A5C37075239E29EE0019E2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C37074239E29EE0019E2CE /* ViewController.swift */; };
 		A5C37078239E29EE0019E2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C37076239E29EE0019E2CE /* Main.storyboard */; };
 		A5C3707A239E29F10019E2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C37079239E29F10019E2CE /* Assets.xcassets */; };
 		A5C3707D239E29F10019E2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C3707B239E29F10019E2CE /* LaunchScreen.storyboard */; };
@@ -20,10 +22,12 @@
 /* Begin PBXFileReference section */
 		12BFE359F09109F6583D277C /* Pods-NexSeedChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexSeedChat.debug.xcconfig"; path = "Target Support Files/Pods-NexSeedChat/Pods-NexSeedChat.debug.xcconfig"; sourceTree = "<group>"; };
 		60C157BC15521657C4B2D511 /* Pods-NexSeedChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NexSeedChat.release.xcconfig"; path = "Target Support Files/Pods-NexSeedChat/Pods-NexSeedChat.release.xcconfig"; sourceTree = "<group>"; };
+		A52D0085239F66B000BC72C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A52D0087239F745A00BC72C2 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		A52D008A239F752700BC72C2 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Room.swift; path = ../../../../Room.swift; sourceTree = "<group>"; };
 		A5C3706D239E29EE0019E2CE /* NexSeedChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexSeedChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C37070239E29EE0019E2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C37072239E29EE0019E2CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5C37074239E29EE0019E2CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5C37077239E29EE0019E2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C37079239E29F10019E2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C3707C239E29F10019E2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52D0089239F751000BC72C2 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A52D008A239F752700BC72C2 /* Room.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		A5C37064239E29EE0019E2CE = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +77,10 @@
 		A5C3706F239E29EE0019E2CE /* NexSeedChat */ = {
 			isa = PBXGroup;
 			children = (
+				A52D0089239F751000BC72C2 /* Objects */,
+				A5C37088239E31E60019E2CE /* Controllers */,
 				A5C37070239E29EE0019E2CE /* AppDelegate.swift */,
 				A5C37072239E29EE0019E2CE /* SceneDelegate.swift */,
-				A5C37074239E29EE0019E2CE /* ViewController.swift */,
 				A5C37076239E29EE0019E2CE /* Main.storyboard */,
 				A5C37079239E29F10019E2CE /* Assets.xcassets */,
 				A5C3707B239E29F10019E2CE /* LaunchScreen.storyboard */,
@@ -75,6 +88,15 @@
 				A5C37086239E2C1E0019E2CE /* GoogleService-Info.plist */,
 			);
 			path = NexSeedChat;
+			sourceTree = "<group>";
+		};
+		A5C37088239E31E60019E2CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A52D0085239F66B000BC72C2 /* LoginViewController.swift */,
+				A52D0087239F745A00BC72C2 /* RoomViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		CDCE4DA1F35E74B22C75E084 /* Pods */ = {
@@ -228,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C37075239E29EE0019E2CE /* ViewController.swift in Sources */,
+				A52D0086239F66B000BC72C2 /* LoginViewController.swift in Sources */,
 				A5C37071239E29EE0019E2CE /* AppDelegate.swift in Sources */,
 				A5C37073239E29EE0019E2CE /* SceneDelegate.swift in Sources */,
+				A52D0088239F745B00BC72C2 /* RoomViewController.swift in Sources */,
+				A52D008B239F752700BC72C2 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
